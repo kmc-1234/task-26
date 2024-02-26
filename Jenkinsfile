@@ -7,7 +7,7 @@ pipeline
                       {
                       steps
                         {
-                        git "https://github.com/kpmc123/jenkins_practice.git"
+                        git ""https://github.com/kpmc123/task-26.git"
                         }
                       }
                         stage("Run")
@@ -15,7 +15,7 @@ pipeline
                             steps
                                {
                                sh "python3 main.py"
-                               sh "java demo.java"
+                               sh "java Demo.java"
                                }
                              }
 }
