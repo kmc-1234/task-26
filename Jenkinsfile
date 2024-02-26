@@ -7,7 +7,7 @@ pipeline
                       {
                       steps
                         {
-                        git ""https://github.com/kpmc123/task-26.git"
+                        git "https://github.com/kpmc123/task-26.git"
                         }
                       }
                         stage("Run")
